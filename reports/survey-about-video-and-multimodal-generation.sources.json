@@ -1,0 +1,42 @@
+[
+  {
+    "n": 1,
+    "id": "2510.04999",
+    "url": "https://arxiv.org/abs/2510.04999",
+    "title": "Bridging Text and Video Generation: A Survey",
+    "date": "2025-10-06",
+    "source": "arxiv"
+  },
+  {
+    "n": 2,
+    "id": "https://link.springer.com/article/10.1186/s40537-025-01314-3",
+    "url": "https://link.springer.com/article/10.1186/s40537-025-01314-3",
+    "title": "Text-to-video generators: a comprehensive survey | Journal of Big Data | Springer Nature Link",
+    "date": "2025-11-14",
+    "source": "web"
+  },
+  {
+    "n": 3,
+    "id": "2511.21129",
+    "url": "https://huggingface.co/papers/2511.21129",
+    "title": "CtrlVDiff: Controllable Video Generation via Unified Multimodal Video Diffusion",
+    "date": "2025-11-26",
+    "source": "hf-search"
+  },
+  {
+    "n": 4,
+    "id": "2401.01827",
+    "url": "https://huggingface.co/papers/2401.01827",
+    "title": "Moonshot: Towards Controllable Video Generation and Editing with Multimodal Conditions",
+    "date": "2024-01-03",
+    "source": "hf-search"
+  },
+  {
+    "n": 5,
+    "id": "2610.18779",
+    "url": "https://arxiv.org/abs/2610.18779",
+    "title": "GAD: Geometry Attention Distillation for Consistent Video Generation",
+    "date": "2026-10-13",
+    "source": "arxiv"
+  }
+]

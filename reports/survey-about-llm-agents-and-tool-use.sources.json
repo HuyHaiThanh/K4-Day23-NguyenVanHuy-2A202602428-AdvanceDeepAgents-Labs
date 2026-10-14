@@ -1,0 +1,90 @@
+[
+  {
+    "n": 1,
+    "id": "2308.11432",
+    "url": "https://arxiv.org/abs/2308.11432",
+    "title": "A Survey on Large Language Model based Autonomous Agents",
+    "date": "2025-03-02",
+    "source": "arxiv"
+  },
+  {
+    "n": 2,
+    "id": "2309.07864",
+    "url": "https://arxiv.org/abs/2309.07864",
+    "title": "The Rise and Potential of Large Language Model Based Agents: A Survey",
+    "date": "2023-09-19",
+    "source": "arxiv"
+  },
+  {
+    "n": 3,
+    "id": "2610.17953",
+    "url": "https://huggingface.co/papers/2610.17953",
+    "title": "Agent-Reflex: Teaching Language Agents to Act Reflectively",
+    "date": "2026-10-13",
+    "source": "hf-search"
+  },
+  {
+    "n": 4,
+    "id": "web-FISSION-GRPO",
+    "url": "https://aclanthology.org/2026.acl-long.1880.pdf",
+    "title": "Robust Tool Use via FISSION-GRPO: Learning to Recover from Execution Errors",
+    "date": "2026-07",
+    "source": "web"
+  },
+  {
+    "n": 5,
+    "id": "web-CAR-ToolSynthesis",
+    "url": "https://aclanthology.org/2026.findings-acl.869.pdf",
+    "title": "CAR: Empowering Agents with Dynamic Tool Synthesis and Global Trajectory Rectification",
+    "date": "2026-07",
+    "source": "web"
+  },
+  {
+    "n": 6,
+    "id": "web-ToolOmni",
+    "url": "https://aclanthology.org/2026.acl-long.1736.pdf",
+    "title": "ToolOmni: Enabling Open-World Tool Use via Agentic Learning with Proactive Retrieval and Grounded Execution",
+    "date": "2026-07",
+    "source": "web"
+  },
+  {
+    "n": 7,
+    "id": "2608.03403",
+    "url": "https://arxiv.org/abs/2608.03403",
+    "title": "Towards Robust Tool Use in Agents via Experience-Driven Adaptive Guidance",
+    "date": "2026-08-04",
+    "source": "arxiv"
+  },
+  {
+    "n": 8,
+    "id": "2610.18356",
+    "url": "https://huggingface.co/papers/2610.18356",
+    "title": "Urbex: Agentic Spatial Grounding for City-Scale 3D Scenes",
+    "date": "2026-10-13",
+    "source": "hf-search"
+  },
+  {
+    "n": 9,
+    "id": "2610.00905",
+    "url": "https://arxiv.org/abs/2610.00905",
+    "title": "Understanding Issues, Causes and Solutions in Open-Source LLM-based Multi-Agent Systems",
+    "date": "2026-10-01",
+    "source": "arxiv"
+  },
+  {
+    "n": 10,
+    "id": "web-CogComp2026",
+    "url": "https://link.springer.com/article/10.1007/s12559-026-10619-1",
+    "title": "From Language Models to Agentic AI: A Survey of Autonomous, Action-Enabled, and Collaborative LLM Agents",
+    "date": "2026-08-24",
+    "source": "web"
+  },
+  {
+    "n": 11,
+    "id": "2608.02650",
+    "url": "https://huggingface.co/papers/2608.02650",
+    "title": "HyperAgent: Planning and Acting over Tool-Schema Hypergraphs for Tool-Use LLM Agents",
+    "date": "2026-07-31",
+    "source": "hf-search"
+  }
+]

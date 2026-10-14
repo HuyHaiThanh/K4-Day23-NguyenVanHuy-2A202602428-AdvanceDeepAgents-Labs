@@ -1,0 +1,58 @@
+[
+  {
+    "n": 1,
+    "id": "2411.17116",
+    "url": "https://huggingface.co/papers/2411.17116",
+    "title": "Star Attention: Efficient LLM Inference over Long Sequences",
+    "date": "2024-11-26",
+    "source": "hf-search"
+  },
+  {
+    "n": 2,
+    "id": "https://arxiv.org/html/2405.04437",
+    "url": "https://arxiv.org/html/2405.04437",
+    "title": "vAttention: Dynamic Memory Management for Serving LLMs without PagedAttention",
+    "date": "",
+    "source": "web"
+  },
+  {
+    "n": 3,
+    "id": "2407.14679",
+    "url": "https://arxiv.org/abs/2407.14679",
+    "title": "Compact Language Models via Pruning and Knowledge Distillation",
+    "date": "2024-07-19",
+    "source": "arxiv"
+  },
+  {
+    "n": 4,
+    "id": "https://github.com/NVlabs/Minitron",
+    "url": "https://github.com/NVlabs/Minitron",
+    "title": "NVlabs/Minitron",
+    "date": "",
+    "source": "web"
+  },
+  {
+    "n": 5,
+    "id": "2608.11981",
+    "url": "https://arxiv.org/abs/2608.11981",
+    "title": "Benchmarking Trustworthiness of SLMs: Pre-trained vs. Compressed",
+    "date": "2026-08-12",
+    "source": "arxiv"
+  },
+  {
+    "n": 6,
+    "id": "https://huggingface.co/blog/smollm",
+    "url": "https://huggingface.co/blog/smollm",
+    "title": "SmolLM - blazingly fast and remarkably powerful",
+    "date": "2024-07-16",
+    "source": "web"
+  },
+  {
+    "n": 7,
+    "id": "https://github.com/vllm-project/flash-attention",
+    "url": "https://github.com/vllm-project/flash-attention",
+    "title": "vllm-project/flash-attention",
+    "date": "",
+    "source": "web"
+  }
+]

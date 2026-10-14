@@ -1,0 +1,191 @@
+{
+  "topic": "survey about LLM agents and tool use",
+  "model": "openai:gpt-4.1",
+  "elapsed_s": 410.9,
+  "subagent_calls": 11,
+  "tool_calls": {
+    "edit_file": 10,
+    "execute": 12,
+    "ls": 1,
+    "read_file": 17,
+    "task": 11,
+    "write_file": 6,
+    "write_todos": 1
+  },
+  "tokens": {
+    "input": 1116468,
+    "output": 17239
+  },
+  "tokens_scope": "lead_only; excludes subagent usage",
+  "task_types": {
+    "researcher": 7,
+    "citation-checker": 4
+  },
+  "current_run_usage": {
+    "input": 56830,
+    "output": 3132,
+    "model_calls": 11,
+    "unmetered_calls": 0,
+    "by_model": {
+      "gpt-4.1-2025-04-14": {
+        "input": 56830,
+        "output": 3132,
+        "model_calls": 11
+      }
+    },
+    "admission_limit": 140000,
+    "scope": "current_run_all_agents_and_compaction"
+  },
+  "phases": [
+    {
+      "phase": "generation",
+      "model": "openai:gpt-4.1",
+      "elapsed_s": 267.3,
+      "subagent_calls": 9,
+      "tool_calls": {
+        "edit_file": 10,
+        "execute": 12,
+        "ls": 1,
+        "read_file": 10,
+        "task": 9,
+        "write_file": 4,
+        "write_todos": 1
+      },
+      "tokens": {
+        "input": 1025455,
+        "output": 11683
+      },
+      "task_types": {
+        "researcher": 7,
+        "citation-checker": 2
+      }
+    },
+    {
+      "phase": "citation_review",
+      "model": "openai:gpt-4.1",
+      "elapsed_s": 80.4,
+      "subagent_calls": 1,
+      "tool_calls": {
+        "read_file": 4,
+        "task": 1,
+        "write_file": 1
+      },
+      "tokens": {
+        "input": 53328,
+        "output": 2987
+      },
+      "task_types": {
+        "citation-checker": 1
+      },
+      "current_run_usage": {
+        "input": 73262,
+        "output": 3723,
+        "model_calls": 12,
+        "unmetered_calls": 0,
+        "by_model": {
+          "gpt-4.1-2025-04-14": {
+            "input": 73262,
+            "output": 3723,
+            "model_calls": 12
+          }
+        },
+        "admission_limit": 170000,
+        "scope": "current_run_all_agents_and_compaction"
+      }
+    },
+    {
+      "phase": "citation_review",
+      "model": "openai:gpt-4.1",
+      "elapsed_s": 63.2,
+      "subagent_calls": 1,
+      "tool_calls": {
+        "read_file": 3,
+        "task": 1,
+        "write_file": 1
+      },
+      "tokens": {
+        "input": 37685,
+        "output": 2569
+      },
+      "task_types": {
+        "citation-checker": 1
+      },
+      "current_run_usage": {
+        "input": 56830,
+        "output": 3132,
+        "model_calls": 11,
+        "unmetered_calls": 0,
+        "by_model": {
+          "gpt-4.1-2025-04-14": {
+            "input": 56830,
+            "output": 3132,
+            "model_calls": 11
+          }
+        },
+        "admission_limit": 140000,
+        "scope": "current_run_all_agents_and_compaction"
+      }
+    }
+  ],
+  "n_sources": 11,
+  "source_families": [
+    "arxiv",
+    "hf-search",
+    "web"
+  ],
+  "citation_audit": [
+    {
+      "n": 1,
+      "url": "https://arxiv.org/abs/2308.11432",
+      "status": "SUPPORTED",
+      "reason": "The source defines LLM agents as LLMs augmented with modules and interfaces for environment perception, tracking, goal pursuit, and action through tool use. The framework discussion and diagrams clearly emphasize perception, action through tool invocation, and environmental interaction.",
+      "evidence": "> “An autonomous agent is a system situated",
+      "claim": "Foundational sources agree that an LLM agent is an LLM augmented with modules and interfaces for goal pursuit, environment perception and tracking (potentially across modalities), and crucially, action—including via tool use [1].",
+      "report_sha256": "32bb9ffb59c179ccefcff32495d93b954f747dde7c89588c393ed945198cc99f",
+      "evidence_sha256": "be4426d601549e5be693f4a671926085d2e14ff8a4b26c6cf41e5a1ce698017f"
+    },
+    {
+      "n": 3,
+      "url": "https://huggingface.co/papers/2610.17953",
+      "status": "SUPPORTED",
+      "reason": "The Agent-Reflex paper explicitly introduces proactive reflection to handle realism-induced noise, user intervention, and novel tool feedback, and details mechanisms for error recovery as fundamental aspects of the system.",
+      "evidence": "In real deployments, MCP tool services can return",
+      "claim": "**Proactive Error Recovery and Reflection**: Systems like Agent-Reflex introduce proactive reflection, enabling agents to handle realism-induced noise, user interventions, and novel tool feedback [3].",
+      "report_sha256": "32bb9ffb59c179ccefcff32495d93b954f747dde7c89588c393ed945198cc99f",
+      "evidence_sha256": "6473689dad3e3e61efe4070df0a74cdd350673d29208f1046a0db4c0ea9ae8f7"
+    },
+    {
+      "n": 6,
+      "url": "https://aclanthology.org/2026.acl-long.1736.pdf",
+      "status": "SUPPORTED",
+      "reason": "The ToolOmni paper describes proactive tool retrieval, dynamic discovery and use of tools, robust generalization to unseen APIs, and adaptation to API changes, supporting the claim in the report.",
+      "evidence": "To address these, we present ToolOmni, a unified",
+      "claim": "**Open-World Tool Use**: ToolOmni (source6) implements proactive tool retrieval for dynamic discovery and use of new tools, showing robust generalization to unseen APIs and adaptation to API changes [6].",
+      "report_sha256": "32bb9ffb59c179ccefcff32495d93b954f747dde7c89588c393ed945198cc99f",
+      "evidence_sha256": "681229293db3e030bd5a1a017cf2395624146154ccd1a431e56a19e634602f57"
+    },
+    {
+      "n": 8,
+      "url": "https://huggingface.co/papers/2610.18356",
+      "status": "SUPPORTED",
+      "reason": "The Urbex paper describes agentic spatial reasoning in city-scale 3D scenes and links LLM agents to spatial tool coordination beyond textual tasks, supporting the claim.",
+      "evidence": "Urbex represents a city-scale 3D scene as an",
+      "claim": "**Complex Modalities**: Urbex expands LLM agent use to spatial reasoning and tool coordination in large-scale 3D environments, demonstrating the applicability of agentic tool use beyond textual tasks [8].",
+      "report_sha256": "32bb9ffb59c179ccefcff32495d93b954f747dde7c89588c393ed945198cc99f",
+      "evidence_sha256": "8f2099606758909d9ad2d6cde4d0e60ec75167fba5bdf68b6ba975290dcaa44a"
+    },
+    {
+      "n": 11,
+      "url": "https://huggingface.co/papers/2608.02650",
+      "status": "SUPPORTED",
+      "reason": "The HyperAgent paper discusses the challenges of reliable tool-use planning, causality across tool chains, and the importance of context-aware memory, which supports the claim about credit assignment and memory as hurdles.",
+      "evidence": "Given a task, HyperAgent first extracts a task-relevant",
+      "claim": "- **Credit Assignment and Memory**: Understanding causality in agent actions—especially across long tool chains—and enabling context-aware memory remain major hurdles [11].",
+      "report_sha256": "32bb9ffb59c179ccefcff32495d93b954f747dde7c89588c393ed945198cc99f",
+      "evidence_sha256": "aa4797e165838fd24f57cb474938ea2cbb08f249bb48d68c75c332240f8b7744"
+    }
+  ],
+  "audit_version": "quoted_evidence_v3_sampled",
+  "n_audited_sources": 5,
+  "audit_scope": "5 source-claim samples; structural validator covers all citations"
+}

@@ -1,0 +1,471 @@
+{
+  "topic": "survey about video and multimodal generation",
+  "model": "openai:gpt-4.1",
+  "elapsed_s": 2124.3,
+  "subagent_calls": 23,
+  "tool_calls": {
+    "edit_file": 6,
+    "execute": 47,
+    "read_file": 69,
+    "task": 23,
+    "write_file": 32,
+    "write_todos": 11,
+    "grep": 24,
+    "ls": 1,
+    "delete": 1,
+    "save_retrieved_sources": 1
+  },
+  "tokens": {
+    "input": 2189397,
+    "output": 64772
+  },
+  "tokens_scope": "lead_only; excludes subagent usage",
+  "task_types": {
+    "researcher": 10,
+    "citation-checker": 13
+  },
+  "current_run_usage": {
+    "input": 46605,
+    "output": 1931,
+    "model_calls": 11,
+    "unmetered_calls": 0,
+    "by_model": {
+      "gpt-4.1-2025-04-14": {
+        "input": 46605,
+        "output": 1931,
+        "model_calls": 11
+      }
+    },
+    "admission_limit": 170000,
+    "scope": "current_run_all_agents_and_compaction"
+  },
+  "phases": [
+    {
+      "phase": "generation",
+      "model": "openai:gpt-4.1-mini",
+      "elapsed_s": 151.8,
+      "subagent_calls": 4,
+      "tool_calls": {
+        "edit_file": 5,
+        "execute": 5,
+        "read_file": 2,
+        "task": 4,
+        "write_file": 3,
+        "write_todos": 2
+      },
+      "tokens": {
+        "input": 232130,
+        "output": 6021
+      },
+      "task_types": {
+        "researcher": 3,
+        "citation-checker": 1
+      },
+      "current_run_usage": {
+        "input": 367822,
+        "output": 10493,
+        "model_calls": 37,
+        "unmetered_calls": 0,
+        "admission_limit": 400000,
+        "scope": "current_run_all_agents_and_compaction"
+      }
+    },
+    {
+      "phase": "citation_review",
+      "model": "openai:gpt-4.1-mini",
+      "elapsed_s": 52.7,
+      "subagent_calls": 0,
+      "tool_calls": {
+        "execute": 3,
+        "grep": 12,
+        "read_file": 2,
+        "write_file": 1
+      },
+      "tokens": {
+        "input": 104578,
+        "output": 1892
+      },
+      "task_types": {},
+      "current_run_usage": {
+        "input": 104578,
+        "output": 1892,
+        "model_calls": 13,
+        "unmetered_calls": 0,
+        "admission_limit": 400000,
+        "scope": "current_run_all_agents_and_compaction"
+      }
+    },
+    {
+      "phase": "citation_review",
+      "model": "openai:gpt-4.1-mini",
+      "elapsed_s": 149.3,
+      "subagent_calls": 2,
+      "tool_calls": {
+        "edit_file": 1,
+        "execute": 3,
+        "grep": 7,
+        "ls": 1,
+        "read_file": 4,
+        "task": 2,
+        "write_file": 1,
+        "write_todos": 1
+      },
+      "tokens": {
+        "input": 156424,
+        "output": 2900
+      },
+      "task_types": {
+        "citation-checker": 2
+      },
+      "current_run_usage": {
+        "input": 344251,
+        "output": 7746,
+        "model_calls": 39,
+        "unmetered_calls": 0,
+        "admission_limit": 400000,
+        "scope": "current_run_all_agents_and_compaction"
+      }
+    },
+    {
+      "phase": "citation_review",
+      "model": "openai:gpt-4.1-mini",
+      "elapsed_s": 756.8,
+      "subagent_calls": 1,
+      "tool_calls": {
+        "execute": 7,
+        "grep": 5,
+        "read_file": 7,
+        "task": 1,
+        "write_file": 1
+      },
+      "tokens": {
+        "input": 169927,
+        "output": 2555
+      },
+      "task_types": {
+        "citation-checker": 1
+      },
+      "current_run_usage": {
+        "input": 229758,
+        "output": 4575,
+        "model_calls": 26,
+        "unmetered_calls": 0,
+        "admission_limit": 400000,
+        "scope": "current_run_all_agents_and_compaction"
+      }
+    },
+    {
+      "phase": "citation_review",
+      "model": "openai:gpt-4.1-mini",
+      "elapsed_s": 237.1,
+      "subagent_calls": 4,
+      "tool_calls": {
+        "delete": 1,
+        "execute": 3,
+        "read_file": 2,
+        "task": 4,
+        "write_file": 6
+      },
+      "tokens": {
+        "input": 180544,
+        "output": 10657
+      },
+      "task_types": {
+        "citation-checker": 2,
+        "researcher": 2
+      },
+      "current_run_usage": {
+        "input": 369338,
+        "output": 18755,
+        "model_calls": 37,
+        "unmetered_calls": 0,
+        "admission_limit": 400000,
+        "scope": "current_run_all_agents_and_compaction"
+      }
+    },
+    {
+      "phase": "citation_review",
+      "model": "openai:gpt-4.1",
+      "elapsed_s": 165.9,
+      "subagent_calls": 1,
+      "tool_calls": {
+        "execute": 12,
+        "read_file": 9,
+        "task": 1,
+        "write_file": 7,
+        "write_todos": 2
+      },
+      "tokens": {
+        "input": 361927,
+        "output": 16176
+      },
+      "task_types": {
+        "researcher": 1
+      },
+      "current_run_usage": {
+        "input": 367947,
+        "output": 16966,
+        "model_calls": 34,
+        "unmetered_calls": 0,
+        "by_model": {
+          "gpt-4.1-2025-04-14": {
+            "input": 361927,
+            "output": 16176,
+            "model_calls": 32
+          },
+          "gpt-4.1-mini-2025-04-14": {
+            "input": 6020,
+            "output": 790,
+            "model_calls": 2
+          }
+        },
+        "admission_limit": 400000,
+        "scope": "current_run_all_agents_and_compaction"
+      }
+    },
+    {
+      "phase": "citation_review",
+      "model": "openai:gpt-4.1",
+      "elapsed_s": 131.0,
+      "subagent_calls": 2,
+      "tool_calls": {
+        "execute": 4,
+        "read_file": 17,
+        "task": 2,
+        "write_file": 5,
+        "write_todos": 2
+      },
+      "tokens": {
+        "input": 374440,
+        "output": 7683
+      },
+      "task_types": {
+        "researcher": 2
+      },
+      "current_run_usage": {
+        "input": 384401,
+        "output": 8397,
+        "model_calls": 30,
+        "unmetered_calls": 0,
+        "by_model": {
+          "gpt-4.1-2025-04-14": {
+            "input": 374440,
+            "output": 7683,
+            "model_calls": 25
+          },
+          "gpt-4.1-mini-2025-04-14": {
+            "input": 9961,
+            "output": 714,
+            "model_calls": 5
+          }
+        },
+        "admission_limit": 400000,
+        "scope": "current_run_all_agents_and_compaction"
+      }
+    },
+    {
+      "phase": "citation_review",
+      "model": "openai:gpt-4.1",
+      "elapsed_s": 146.1,
+      "subagent_calls": 2,
+      "tool_calls": {
+        "execute": 6,
+        "read_file": 9,
+        "task": 2,
+        "write_file": 5,
+        "write_todos": 4
+      },
+      "tokens": {
+        "input": 309599,
+        "output": 6344
+      },
+      "task_types": {
+        "citation-checker": 2
+      },
+      "current_run_usage": {
+        "input": 377035,
+        "output": 8735,
+        "model_calls": 36,
+        "unmetered_calls": 0,
+        "by_model": {
+          "gpt-4.1-2025-04-14": {
+            "input": 377035,
+            "output": 8735,
+            "model_calls": 36
+          }
+        },
+        "admission_limit": 400000,
+        "scope": "current_run_all_agents_and_compaction"
+      }
+    },
+    {
+      "phase": "citation_review",
+      "model": "openai:gpt-4.1",
+      "elapsed_s": 162.4,
+      "subagent_calls": 2,
+      "tool_calls": {
+        "execute": 2,
+        "read_file": 6,
+        "task": 2,
+        "write_file": 1
+      },
+      "tokens": {
+        "input": 136948,
+        "output": 4993
+      },
+      "task_types": {
+        "citation-checker": 2
+      },
+      "current_run_usage": {
+        "input": 255143,
+        "output": 8822,
+        "model_calls": 31,
+        "unmetered_calls": 0,
+        "by_model": {
+          "gpt-4.1-2025-04-14": {
+            "input": 255143,
+            "output": 8822,
+            "model_calls": 31
+          }
+        },
+        "admission_limit": 400000,
+        "scope": "current_run_all_agents_and_compaction"
+      }
+    },
+    {
+      "phase": "citation_review",
+      "model": "openai:gpt-4.1",
+      "elapsed_s": 118.1,
+      "subagent_calls": 4,
+      "tool_calls": {
+        "execute": 2,
+        "read_file": 8,
+        "task": 4,
+        "write_file": 1
+      },
+      "tokens": {
+        "input": 132443,
+        "output": 4185
+      },
+      "task_types": {
+        "researcher": 2,
+        "citation-checker": 2
+      },
+      "current_run_usage": {
+        "input": 199336,
+        "output": 6970,
+        "model_calls": 29,
+        "unmetered_calls": 0,
+        "by_model": {
+          "gpt-4.1-2025-04-14": {
+            "input": 190820,
+            "output": 6433,
+            "model_calls": 25
+          },
+          "gpt-4.1-mini-2025-04-14": {
+            "input": 8516,
+            "output": 537,
+            "model_calls": 4
+          }
+        },
+        "admission_limit": 400000,
+        "scope": "current_run_all_agents_and_compaction"
+      }
+    },
+    {
+      "phase": "citation_review",
+      "model": "openai:gpt-4.1",
+      "elapsed_s": 53.1,
+      "subagent_calls": 1,
+      "tool_calls": {
+        "read_file": 3,
+        "save_retrieved_sources": 1,
+        "task": 1,
+        "write_file": 1
+      },
+      "tokens": {
+        "input": 30437,
+        "output": 1366
+      },
+      "task_types": {
+        "citation-checker": 1
+      },
+      "current_run_usage": {
+        "input": 46605,
+        "output": 1931,
+        "model_calls": 11,
+        "unmetered_calls": 0,
+        "by_model": {
+          "gpt-4.1-2025-04-14": {
+            "input": 46605,
+            "output": 1931,
+            "model_calls": 11
+          }
+        },
+        "admission_limit": 170000,
+        "scope": "current_run_all_agents_and_compaction"
+      }
+    }
+  ],
+  "n_sources": 5,
+  "source_families": [
+    "arxiv",
+    "hf-search",
+    "web"
+  ],
+  "citation_audit": [
+    {
+      "n": 1,
+      "url": "https://arxiv.org/abs/2510.04999",
+      "status": "SUPPORTED",
+      "reason": "The source explicitly states that the field has advanced from adversarial models (GANs/VAEs) to diffusion-based models and then to diffusion-transformer (DiT) architectures, leading to improved temporal consistency and spatial coherence, clearly supporting the claim.",
+      "evidence": "Addressing this evolving landscape, we present a comprehensive",
+      "claim": "- Video generation research has evolved from early GAN and VAE methods towards diffusion-transformer hybrid models, leading to improved temporal consistency and spatial coherence [1][2].",
+      "report_sha256": "97961538020d2632138d31379cf4c39feff616de9fdc2d7729abd2d85f9c1fe8",
+      "evidence_sha256": "5e1cc30bc07c09140672393d9fe90b8f45735ebc248ce2ce1f9ae1cb298fd646"
+    },
+    {
+      "n": 2,
+      "url": "https://link.springer.com/article/10.1186/s40537-025-01314-3",
+      "status": "SUPPORTED",
+      "reason": "The fetched text discusses that prospective future avenues aim to tackle challenges including identity, motion, cross-modal alignment, and scalable deployment, supporting the claim about future research directions.",
+      "evidence": "Furthermore, these advancements could be advantageous for video",
+      "claim": "Future research aims for motion- and identity-aware video generation, better cross-modal alignment, and scalable real-world deployment [2].",
+      "report_sha256": "97961538020d2632138d31379cf4c39feff616de9fdc2d7729abd2d85f9c1fe8",
+      "evidence_sha256": "34164c06a2e4be0ff8800a9d7bb8db876a11492c52e2055c5324bc393f1b6a24"
+    },
+    {
+      "n": 3,
+      "url": "https://huggingface.co/papers/2511.21129",
+      "status": "SUPPORTED",
+      "reason": "The abstract of the cited work describes CtrlVDiff as a unified diffusion model that incorporates multiple modalities, explicitly listing conditioning on text, image, pose, and audio, supporting the claim exactly.",
+      "evidence": "We then propose CtrlVDiff, a unified diffusion model",
+      "claim": "CtrlVDiff enables conditioning on text, image, pose, and audio using a unified diffusion model [3].",
+      "report_sha256": "97961538020d2632138d31379cf4c39feff616de9fdc2d7729abd2d85f9c1fe8",
+      "evidence_sha256": "1b8e0d0dbdc67b339d6aa36b0fb50b8ba181ec70dc3dae4ee4cb938c318f2c68"
+    },
+    {
+      "n": 4,
+      "url": "https://huggingface.co/papers/2401.01827",
+      "status": "SUPPORTED",
+      "reason": "The paper states that Moonshot allows integration with pre-trained image ControlNet modules for multimodal (image/text-based) conditioning, matching the claim.",
+      "evidence": "In addition, we carefully design the model architecture",
+      "claim": "Recent methods allow integration with pre-trained ControlNet modules to support image/text-based multimodal conditioning, as demonstrated by the Moonshot framework [4].",
+      "report_sha256": "97961538020d2632138d31379cf4c39feff616de9fdc2d7729abd2d85f9c1fe8",
+      "evidence_sha256": "1e3c6ce8cb0ab46cf196b7cce6a158abf1934a65f2c408f1f8cf2a60cf241f70"
+    },
+    {
+      "n": 5,
+      "url": "https://arxiv.org/abs/2610.18779",
+      "status": "SUPPORTED",
+      "reason": "The introduction, figure captions, and methods detail how Geometry Attention Distillation applies geometry-aware attention distilled from teacher models to improve scene geometry and temporal consistency in video generation, directly supporting the claim.",
+      "evidence": "Recent video diffusion models [5, 33, 71, 57]",
+      "claim": "Geometry Attention Distillation applies geometry-aware attention distilled from teacher models to improve scene geometry and temporal consistency in video generation [5].",
+      "report_sha256": "97961538020d2632138d31379cf4c39feff616de9fdc2d7729abd2d85f9c1fe8",
+      "evidence_sha256": "e5e3812da8d529afae603477a8f8a5ed3f33bad855111d10ab43b0f5be6ac9f3"
+    }
+  ],
+  "audit_version": "quoted_evidence_v3_sampled",
+  "n_audited_sources": 5,
+  "audit_scope": "5 source-claim samples; structural validator covers all citations"
+}

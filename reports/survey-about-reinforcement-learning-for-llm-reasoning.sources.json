@@ -1,0 +1,106 @@
+[
+  {
+    "n": 1,
+    "id": "2610.17824",
+    "url": "https://arxiv.org/abs/2610.17824",
+    "title": "Checking the Checkers: A Synthesis of Verifier Noise and Robustness in RLVR",
+    "date": "2026-10-13",
+    "source": "arxiv"
+  },
+  {
+    "n": 2,
+    "id": "2610.16794",
+    "url": "https://arxiv.org/abs/2610.16794",
+    "title": "TPPO: Tracking-Value PPO For Language Model Reasoning",
+    "date": "2026-10-12",
+    "source": "arxiv"
+  },
+  {
+    "n": 3,
+    "id": "2604.25895",
+    "url": "https://arxiv.org/abs/2604.25895",
+    "title": "Three Models of RLHF Annotation: Extension, Evidence, and Authority",
+    "date": "2026-04-28",
+    "source": "arxiv"
+  },
+  {
+    "n": 4,
+    "id": "2610.18683",
+    "url": "https://arxiv.org/abs/2610.18683",
+    "title": "ProAS: A Progress-Aware Advantage Shaping Framework for Multi-Turn Agentic Reinforcement Learning",
+    "date": "2026-10-13",
+    "source": "arxiv"
+  },
+  {
+    "n": 5,
+    "id": "https://magazine.sebastianraschka.com/p/the-state-of-llm-reasoning-model-training",
+    "url": "https://magazine.sebastianraschka.com/p/the-state-of-llm-reasoning-model-training",
+    "title": "The State of Reinforcement Learning for LLM Reasoning",
+    "date": "2025-04-19",
+    "source": "web"
+  },
+  {
+    "n": 6,
+    "id": "2610.18755",
+    "url": "https://arxiv.org/abs/2610.18755",
+    "title": "PreciseCoder: Faithful and Generalizable Debugging Beyond Unit-Test Rewards",
+    "date": "2026-10-13",
+    "source": "arxiv"
+  },
+  {
+    "n": 7,
+    "id": "2605.08905",
+    "url": "https://huggingface.co/papers/2605.08905",
+    "title": "Forge: Quality-Aware RL for NP-Hard Optimization in LLMs (OPT-BENCH)",
+    "date": "2026-05-09",
+    "source": "hf-search"
+  },
+  {
+    "n": 8,
+    "id": "2609.20886",
+    "url": "https://arxiv.org/abs/2609.20886",
+    "title": "BI-Agent and BI-Bench: Towards Automating End-to-End Business Intelligence",
+    "date": "2026-09-16",
+    "source": "arxiv"
+  },
+  {
+    "n": 9,
+    "id": "2601.10744",
+    "url": "https://huggingface.co/papers/2601.10744",
+    "title": "Explore with Long-term Memory: A Benchmark and Multimodal LLM-based RL Framework for Embodied Exploration",
+    "date": "2026-01-11",
+    "source": "hf-search"
+  },
+  {
+    "n": 10,
+    "id": "https://dl.acm.org/doi/abs/10.1145/3837057?af=R",
+    "url": "https://dl.acm.org/doi/abs/10.1145/3837057?af=R",
+    "title": "Reinforcement Learning in the Era of Large Language Models: Challenges and Opportunities",
+    "date": "2026",
+    "source": "web"
+  },
+  {
+    "n": 11,
+    "id": "https://proceedings.neurips.cc/paper_files/paper/2025/file/537d5aa768c2d534016a4d06f87bc8fb-Paper-Conference.pdf",
+    "url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/537d5aa768c2d534016a4d06f87bc8fb-Paper-Conference.pdf",
+    "title": "Does Reinforcement Learning Really Incentivize Reasoning Capacity in LLMs Beyond the Base Model?",
+    "date": "2025",
+    "source": "web"
+  },
+  {
+    "n": 12,
+    "id": "2610.17456",
+    "url": "https://arxiv.org/abs/2610.17456",
+    "title": "Compositional RL: Evaluating and Training LLMs for Collaborative Reasoning",
+    "date": "2026-10-12",
+    "source": "arxiv"
+  },
+  {
+    "n": 13,
+    "id": "2610.18356",
+    "url": "https://huggingface.co/papers/2610.18356",
+    "title": "Urbex: Agentic Spatial Grounding for City-Scale 3D Scenes",
+    "date": "2026-10-13",
+    "source": "hf-daily"
+  }
+]

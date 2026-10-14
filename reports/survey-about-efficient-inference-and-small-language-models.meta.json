@@ -1,0 +1,341 @@
+{
+  "topic": "survey about efficient inference and small language models",
+  "model": "openai:gpt-4.1",
+  "elapsed_s": 538.7,
+  "subagent_calls": 16,
+  "tool_calls": {
+    "read_file": 28,
+    "save_retrieved_sources": 7,
+    "task": 16,
+    "write_file": 10,
+    "write_todos": 10,
+    "execute": 8
+  },
+  "tokens": {
+    "input": 722170,
+    "output": 24031
+  },
+  "tokens_scope": "lead_only; excludes subagent usage",
+  "task_types": {
+    "researcher": 12,
+    "citation-checker": 4
+  },
+  "current_run_usage": {
+    "input": 23647,
+    "output": 790,
+    "model_calls": 6,
+    "unmetered_calls": 0,
+    "by_model": {
+      "gpt-4.1-2025-04-14": {
+        "input": 23647,
+        "output": 790,
+        "model_calls": 6
+      }
+    },
+    "admission_limit": 170000,
+    "scope": "current_run_all_agents_and_compaction"
+  },
+  "phases": [
+    {
+      "phase": "generation",
+      "model": "openai:gpt-4.1",
+      "elapsed_s": 88.8,
+      "subagent_calls": 12,
+      "tool_calls": {
+        "read_file": 8,
+        "save_retrieved_sources": 1,
+        "task": 12,
+        "write_file": 1,
+        "write_todos": 1
+      },
+      "tokens": {
+        "input": 112233,
+        "output": 3836
+      },
+      "task_types": {
+        "researcher": 12
+      },
+      "current_run_usage": {
+        "input": 174098,
+        "output": 10517,
+        "model_calls": 22,
+        "unmetered_calls": 0,
+        "by_model": {
+          "gpt-4.1-2025-04-14": {
+            "input": 112233,
+            "output": 3836,
+            "model_calls": 10
+          },
+          "gpt-4.1-mini-2025-04-14": {
+            "input": 61865,
+            "output": 6681,
+            "model_calls": 12
+          }
+        },
+        "admission_limit": 400000,
+        "scope": "current_run_all_agents_and_compaction"
+      }
+    },
+    {
+      "phase": "citation_review",
+      "model": "openai:gpt-4.1",
+      "elapsed_s": 158.1,
+      "subagent_calls": 1,
+      "tool_calls": {
+        "execute": 6,
+        "read_file": 9,
+        "save_retrieved_sources": 2,
+        "task": 1,
+        "write_file": 2
+      },
+      "tokens": {
+        "input": 272654,
+        "output": 4992
+      },
+      "task_types": {
+        "citation-checker": 1
+      },
+      "current_run_usage": {
+        "input": 315511,
+        "output": 6131,
+        "model_calls": 28,
+        "unmetered_calls": 0,
+        "by_model": {
+          "gpt-4.1-2025-04-14": {
+            "input": 315511,
+            "output": 6131,
+            "model_calls": 28
+          }
+        },
+        "admission_limit": 400000,
+        "scope": "current_run_all_agents_and_compaction"
+      }
+    },
+    {
+      "phase": "citation_review",
+      "model": "openai:gpt-4.1",
+      "elapsed_s": 92.1,
+      "subagent_calls": 1,
+      "tool_calls": {
+        "execute": 2,
+        "read_file": 3,
+        "save_retrieved_sources": 1,
+        "task": 1,
+        "write_file": 1,
+        "write_todos": 1
+      },
+      "tokens": {
+        "input": 114256,
+        "output": 2682
+      },
+      "task_types": {
+        "citation-checker": 1
+      },
+      "current_run_usage": {
+        "input": 172357,
+        "output": 3637,
+        "model_calls": 20,
+        "unmetered_calls": 0,
+        "by_model": {
+          "gpt-4.1-2025-04-14": {
+            "input": 172357,
+            "output": 3637,
+            "model_calls": 20
+          }
+        },
+        "admission_limit": 400000,
+        "scope": "current_run_all_agents_and_compaction"
+      }
+    },
+    {
+      "phase": "citation_review",
+      "model": "openai:gpt-4.1",
+      "elapsed_s": 42.4,
+      "subagent_calls": 0,
+      "tool_calls": {
+        "read_file": 2,
+        "save_retrieved_sources": 1,
+        "write_file": 1,
+        "write_todos": 1
+      },
+      "tokens": {
+        "input": 34429,
+        "output": 2146
+      },
+      "task_types": {},
+      "current_run_usage": {
+        "input": 34429,
+        "output": 2146,
+        "model_calls": 6,
+        "unmetered_calls": 0,
+        "by_model": {
+          "gpt-4.1-2025-04-14": {
+            "input": 34429,
+            "output": 2146,
+            "model_calls": 6
+          }
+        },
+        "admission_limit": 170000,
+        "scope": "current_run_all_agents_and_compaction"
+      }
+    },
+    {
+      "phase": "citation_review",
+      "model": "openai:gpt-4.1",
+      "elapsed_s": 58.2,
+      "subagent_calls": 1,
+      "tool_calls": {
+        "read_file": 3,
+        "save_retrieved_sources": 1,
+        "task": 1,
+        "write_file": 1
+      },
+      "tokens": {
+        "input": 39543,
+        "output": 2240
+      },
+      "task_types": {
+        "citation-checker": 1
+      },
+      "current_run_usage": {
+        "input": 66443,
+        "output": 3268,
+        "model_calls": 13,
+        "unmetered_calls": 0,
+        "by_model": {
+          "gpt-4.1-2025-04-14": {
+            "input": 66443,
+            "output": 3268,
+            "model_calls": 13
+          }
+        },
+        "admission_limit": 170000,
+        "scope": "current_run_all_agents_and_compaction"
+      }
+    },
+    {
+      "phase": "citation_review",
+      "model": "openai:gpt-4.1",
+      "elapsed_s": 66.8,
+      "subagent_calls": 0,
+      "tool_calls": {
+        "read_file": 3,
+        "save_retrieved_sources": 1,
+        "write_file": 4,
+        "write_todos": 7
+      },
+      "tokens": {
+        "input": 143806,
+        "output": 7931
+      },
+      "task_types": {},
+      "current_run_usage": {
+        "input": 143806,
+        "output": 7931,
+        "model_calls": 15,
+        "unmetered_calls": 0,
+        "by_model": {
+          "gpt-4.1-2025-04-14": {
+            "input": 143806,
+            "output": 7931,
+            "model_calls": 15
+          }
+        },
+        "admission_limit": 170000,
+        "scope": "current_run_all_agents_and_compaction"
+      }
+    },
+    {
+      "phase": "citation_review",
+      "model": "openai:gpt-4.1",
+      "elapsed_s": 32.3,
+      "subagent_calls": 1,
+      "tool_calls": {
+        "task": 1
+      },
+      "tokens": {
+        "input": 5249,
+        "output": 204
+      },
+      "task_types": {
+        "citation-checker": 1
+      },
+      "current_run_usage": {
+        "input": 23647,
+        "output": 790,
+        "model_calls": 6,
+        "unmetered_calls": 0,
+        "by_model": {
+          "gpt-4.1-2025-04-14": {
+            "input": 23647,
+            "output": 790,
+            "model_calls": 6
+          }
+        },
+        "admission_limit": 170000,
+        "scope": "current_run_all_agents_and_compaction"
+      }
+    }
+  ],
+  "n_sources": 7,
+  "source_families": [
+    "arxiv",
+    "hf-search",
+    "web"
+  ],
+  "citation_audit": [
+    {
+      "n": 1,
+      "url": "https://huggingface.co/papers/2411.17116",
+      "status": "SUPPORTED",
+      "reason": "The source directly supports the claim, specifically stating that Star Attention provides up to 11x inference speedup on long-sequence inference, retains 97–100% of accuracy, and is compatible with most transformers without requiring retraining.",
+      "evidence": "Star Attention integrates seamlessly with most Transformer-based LLMs",
+      "claim": "This two-phase block-sparse design yields up to 11x speedup on long-sequence inference with 97–100% retention of accuracy and is compatible with most transformers without needing retraining [1].",
+      "report_sha256": "9603c532af91be6dff7696b683d2f86fa7cbec0805a9ef9c5fb2f4840a828cf0",
+      "evidence_sha256": "e7b61124dcb98c2df10528ce6a1ce0dac07a5a878012b97e2c1046d1d9c40a2e"
+    },
+    {
+      "n": 2,
+      "url": "https://arxiv.org/html/2405.04437",
+      "status": "SUPPORTED",
+      "reason": "The fetched page describes vAttention as separating virtual and physical memory management for GPU, improving throughput compared to previous PagedAttention methods, and simplifying attention kernel compatibility. This fully matches the attributed claim.",
+      "evidence": "It enables on-demand allocation of GPU memory to",
+      "claim": "vAttention further separates virtual/physical GPU memory management, boosting throughput compared to prior methods and simplifying kernel support for new architectures [2].",
+      "report_sha256": "9603c532af91be6dff7696b683d2f86fa7cbec0805a9ef9c5fb2f4840a828cf0",
+      "evidence_sha256": "8af84a73062aca9c86155fd6ddc8a7a7371295c25bd82be98ecac872d198366b"
+    },
+    {
+      "n": 4,
+      "url": "https://github.com/NVlabs/Minitron",
+      "status": "SUPPORTED",
+      "reason": "The repository README and project summary confirm that the Minitron models are developed by iterative pruning along model axes combined with knowledge distillation, leading to substantial model size reductions with little accuracy loss.",
+      "evidence": "We prune model embedding size, attention heads, and",
+      "claim": "- **Iterative Structured Pruning and Distillation:** Recent studies show that iterative pruning along various model axes followed by knowledge distillation (KD) enables substantial model size reduction with minimal accuracy loss [3][4].",
+      "report_sha256": "9603c532af91be6dff7696b683d2f86fa7cbec0805a9ef9c5fb2f4840a828cf0",
+      "evidence_sha256": "c3f72ae32373a2327d71edb194c1b41769f4cc38e05346f2551975bdbd8ab36a"
+    },
+    {
+      "n": 5,
+      "url": "https://arxiv.org/abs/2608.11981",
+      "status": "SUPPORTED",
+      "reason": "The arXiv summary and introduction explicitly note that studies in the paper show that quantization and pruning affect robustness and trustworthiness differently, and combinations can alter deployment trust profiles as claimed.",
+      "evidence": "More importantly, we demonstrate that compressing a reliable",
+      "claim": "- **Quantization:** Studies of model trustworthiness show that compressed models using quantization or pruning can differ in robustness and trustworthy behavior, and that combining these compression methods may yield different trust profiles in deployment [5].",
+      "report_sha256": "9603c532af91be6dff7696b683d2f86fa7cbec0805a9ef9c5fb2f4840a828cf0",
+      "evidence_sha256": "d862ab22ee3677f5a71760bac2f5fe9999d7f59f7eb2dbbf11e59ded407cead8"
+    },
+    {
+      "n": 7,
+      "url": "https://github.com/vllm-project/flash-attention",
+      "status": "SUPPORTED",
+      "reason": "The README and project description for FlashAttention explicitly state that this method facilitates high-throughput, low-latency GPU inference through memory-efficient exact attention and optimized memory usage/layout, as claimed.",
+      "evidence": "**FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness**",
+      "claim": "- **Memory Management:** FlashAttention and similar approaches facilitate high-throughput, low-latency GPU inference by optimizing memory usage and layout [7].",
+      "report_sha256": "9603c532af91be6dff7696b683d2f86fa7cbec0805a9ef9c5fb2f4840a828cf0",
+      "evidence_sha256": "6f2389dc5b2c5b5bf8df59055bbb00cffdf8c279ab2dc7d11bd0a26a6eb831a8"
+    }
+  ],
+  "audit_version": "quoted_evidence_v3_sampled",
+  "n_audited_sources": 5,
+  "audit_scope": "5 source-claim samples; structural validator covers all citations"
+}

@@ -3,3 +3,5 @@
 __pycache__/
 *.pyc
 .pytest_cache/
+# Rejected development outputs are not lab submission artifacts.
+development/

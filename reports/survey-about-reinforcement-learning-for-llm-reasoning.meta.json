@@ -1,0 +1,364 @@
+{
+  "topic": "survey about reinforcement learning for LLM reasoning",
+  "model": "openai:gpt-4.1",
+  "elapsed_s": 929.7,
+  "subagent_calls": 14,
+  "tool_calls": {
+    "edit_file": 3,
+    "execute": 17,
+    "ls": 1,
+    "read_file": 38,
+    "task": 14,
+    "write_file": 16,
+    "write_todos": 7
+  },
+  "tokens": {
+    "input": 1098032,
+    "output": 39535
+  },
+  "tokens_scope": "lead_only; excludes subagent usage",
+  "task_types": {
+    "researcher": 4,
+    "citation-checker": 10
+  },
+  "current_run_usage": {
+    "input": 23884,
+    "output": 727,
+    "model_calls": 6,
+    "unmetered_calls": 0,
+    "by_model": {
+      "gpt-4.1-2025-04-14": {
+        "input": 23884,
+        "output": 727,
+        "model_calls": 6
+      }
+    },
+    "admission_limit": 170000,
+    "scope": "current_run_all_agents_and_compaction"
+  },
+  "phases": [
+    {
+      "phase": "generation",
+      "model": "openai:gpt-4.1",
+      "elapsed_s": 247.4,
+      "subagent_calls": 5,
+      "tool_calls": {
+        "edit_file": 3,
+        "execute": 8,
+        "ls": 1,
+        "read_file": 5,
+        "task": 5,
+        "write_file": 3,
+        "write_todos": 1
+      },
+      "tokens": {
+        "input": 351925,
+        "output": 8395
+      },
+      "task_types": {
+        "researcher": 4,
+        "citation-checker": 1
+      }
+    },
+    {
+      "phase": "citation_review",
+      "model": "openai:gpt-4.1",
+      "elapsed_s": 159.0,
+      "subagent_calls": 1,
+      "tool_calls": {
+        "execute": 2,
+        "read_file": 16,
+        "task": 1,
+        "write_file": 4,
+        "write_todos": 6
+      },
+      "tokens": {
+        "input": 342933,
+        "output": 10732
+      },
+      "task_types": {
+        "citation-checker": 1
+      },
+      "current_run_usage": {
+        "input": 373415,
+        "output": 11774,
+        "model_calls": 35,
+        "unmetered_calls": 0,
+        "by_model": {
+          "gpt-4.1-2025-04-14": {
+            "input": 373415,
+            "output": 11774,
+            "model_calls": 35
+          }
+        },
+        "admission_limit": 400000,
+        "scope": "current_run_all_agents_and_compaction"
+      }
+    },
+    {
+      "phase": "citation_review",
+      "model": "openai:gpt-4.1",
+      "elapsed_s": 200.5,
+      "subagent_calls": 3,
+      "tool_calls": {
+        "execute": 5,
+        "read_file": 6,
+        "task": 3,
+        "write_file": 4
+      },
+      "tokens": {
+        "input": 249656,
+        "output": 10615
+      },
+      "task_types": {
+        "citation-checker": 3
+      },
+      "current_run_usage": {
+        "input": 359737,
+        "output": 15101,
+        "model_calls": 39,
+        "unmetered_calls": 0,
+        "by_model": {
+          "gpt-4.1-2025-04-14": {
+            "input": 358803,
+            "output": 14814,
+            "model_calls": 38
+          },
+          "gpt-4.1-mini-2025-04-14": {
+            "input": 934,
+            "output": 287,
+            "model_calls": 1
+          }
+        },
+        "admission_limit": 400000,
+        "scope": "current_run_all_agents_and_compaction"
+      }
+    },
+    {
+      "phase": "citation_review",
+      "model": "openai:gpt-4.1-mini",
+      "elapsed_s": 89.4,
+      "subagent_calls": 1,
+      "tool_calls": {
+        "execute": 2,
+        "read_file": 2,
+        "task": 1,
+        "write_file": 2
+      },
+      "tokens": {
+        "input": 47960,
+        "output": 3384
+      },
+      "task_types": {
+        "citation-checker": 1
+      },
+      "current_run_usage": {
+        "input": 127242,
+        "output": 5291,
+        "model_calls": 18,
+        "unmetered_calls": 0,
+        "by_model": {
+          "gpt-4.1-mini-2025-04-14": {
+            "input": 127242,
+            "output": 5291,
+            "model_calls": 18
+          }
+        },
+        "admission_limit": 140000,
+        "scope": "current_run_all_agents_and_compaction"
+      }
+    },
+    {
+      "phase": "citation_review",
+      "model": "openai:gpt-4.1-mini",
+      "elapsed_s": 64.9,
+      "subagent_calls": 1,
+      "tool_calls": {
+        "read_file": 2,
+        "task": 1,
+        "write_file": 1
+      },
+      "tokens": {
+        "input": 21303,
+        "output": 2151
+      },
+      "task_types": {
+        "citation-checker": 1
+      },
+      "current_run_usage": {
+        "input": 52630,
+        "output": 3170,
+        "model_calls": 10,
+        "unmetered_calls": 0,
+        "by_model": {
+          "gpt-4.1-mini-2025-04-14": {
+            "input": 52630,
+            "output": 3170,
+            "model_calls": 10
+          }
+        },
+        "admission_limit": 140000,
+        "scope": "current_run_all_agents_and_compaction"
+      }
+    },
+    {
+      "phase": "citation_review",
+      "model": "openai:gpt-4.1",
+      "elapsed_s": 59.4,
+      "subagent_calls": 1,
+      "tool_calls": {
+        "read_file": 3,
+        "task": 1,
+        "write_file": 1
+      },
+      "tokens": {
+        "input": 34288,
+        "output": 2012
+      },
+      "task_types": {
+        "citation-checker": 1
+      },
+      "current_run_usage": {
+        "input": 64304,
+        "output": 2848,
+        "model_calls": 12,
+        "unmetered_calls": 0,
+        "by_model": {
+          "gpt-4.1-2025-04-14": {
+            "input": 64304,
+            "output": 2848,
+            "model_calls": 12
+          }
+        },
+        "admission_limit": 170000,
+        "scope": "current_run_all_agents_and_compaction"
+      }
+    },
+    {
+      "phase": "citation_review",
+      "model": "openai:gpt-4.1",
+      "elapsed_s": 77.0,
+      "subagent_calls": 1,
+      "tool_calls": {
+        "read_file": 4,
+        "task": 1,
+        "write_file": 1
+      },
+      "tokens": {
+        "input": 44856,
+        "output": 2097
+      },
+      "task_types": {
+        "citation-checker": 1
+      },
+      "current_run_usage": {
+        "input": 71601,
+        "output": 3257,
+        "model_calls": 13,
+        "unmetered_calls": 0,
+        "by_model": {
+          "gpt-4.1-2025-04-14": {
+            "input": 71601,
+            "output": 3257,
+            "model_calls": 13
+          }
+        },
+        "admission_limit": 170000,
+        "scope": "current_run_all_agents_and_compaction"
+      }
+    },
+    {
+      "phase": "citation_review",
+      "model": "openai:gpt-4.1",
+      "elapsed_s": 32.1,
+      "subagent_calls": 1,
+      "tool_calls": {
+        "task": 1
+      },
+      "tokens": {
+        "input": 5111,
+        "output": 149
+      },
+      "task_types": {
+        "citation-checker": 1
+      },
+      "current_run_usage": {
+        "input": 23884,
+        "output": 727,
+        "model_calls": 6,
+        "unmetered_calls": 0,
+        "by_model": {
+          "gpt-4.1-2025-04-14": {
+            "input": 23884,
+            "output": 727,
+            "model_calls": 6
+          }
+        },
+        "admission_limit": 170000,
+        "scope": "current_run_all_agents_and_compaction"
+      }
+    }
+  ],
+  "n_sources": 13,
+  "source_families": [
+    "arxiv",
+    "hf-daily",
+    "hf-search",
+    "web"
+  ],
+  "citation_audit": [
+    {
+      "n": 1,
+      "url": "https://arxiv.org/abs/2610.17824",
+      "status": "SUPPORTED",
+      "reason": "The source explicitly explains that RLVR utilizes programmatic checks, such as unit tests, as reward signals, and discusses the ensuing attention to verifier noise and robustness. While the connection is not always in a single sentence, the abstract and introduction jointly support the claim as stated.",
+      "evidence": "Reinforcement learning with verifiable rewards (RLVR), a term",
+      "claim": "Work on RLVR—where explicit, verifiable correctness (via unit tests or logical checks) supplies the reward signal—motivates new attention to verifier noise and robustness issues in RL for LLM reasoning [1][12].",
+      "report_sha256": "aa9fcf2b02713734622978446781ccbda03815e5723e9e6f2cbbbe16a7b8db99",
+      "evidence_sha256": "a43f13a099dd1a00e6023fa909bdaaebefc84da75f08803de4e784c76db6f4ff"
+    },
+    {
+      "n": 4,
+      "url": "https://arxiv.org/abs/2610.18683",
+      "status": "SUPPORTED",
+      "reason": "The abstract and introduction clearly state that ProAS is a framework designed to improve fine-grained credit assignment for multi-turn agentic RL in LLMs. This directly maps to the claim's scope and semantics.",
+      "evidence": "# ProAS: A Progress-Aware Advantage Shaping Framework for",
+      "claim": "Progress-aware advantage shaping (ProAS) is designed to improve credit assignment in multi-turn agentic RL for LLMs [4].",
+      "report_sha256": "aa9fcf2b02713734622978446781ccbda03815e5723e9e6f2cbbbe16a7b8db99",
+      "evidence_sha256": "5248a6739697c2f1c3510d5e6ff59449a0aa22c4fe329787d3c35c6288a4cdb7"
+    },
+    {
+      "n": 7,
+      "url": "https://huggingface.co/papers/2605.08905",
+      "status": "SUPPORTED",
+      "reason": "The abstract unambiguously claims that Forge-Engine is a framework for RL training and evaluation of LLMs on NP-hard optimization problems, fully substantiating the claim.",
+      "evidence": "# Paper page - Forge: Quality-Aware Reinforcement Learning",
+      "claim": "OPT-BENCH is used for RL in NP-hard optimization challenges [7].",
+      "report_sha256": "aa9fcf2b02713734622978446781ccbda03815e5723e9e6f2cbbbe16a7b8db99",
+      "evidence_sha256": "5ac0fc050f3db3bba064152730a9962ed382850abc68f5630c938fc5d6193116"
+    },
+    {
+      "n": 10,
+      "url": "https://dl.acm.org/doi/abs/10.1145/3837057?af=R",
+      "status": "SUPPORTED",
+      "reason": "The abstract summarizes limitations and open problems regarding RL for LLMs in efficiency, effectiveness, algorithm-system co-design, reliability, and safety. This fully supports the claim.",
+      "evidence": "Finally, we discuss the limitations and side effects",
+      "claim": "- Studies on RL for LLM reasoning highlight challenges in efficiency, effectiveness, and algorithm-system co-design, with reliability and safety remaining critical issues [5][10][11].",
+      "report_sha256": "aa9fcf2b02713734622978446781ccbda03815e5723e9e6f2cbbbe16a7b8db99",
+      "evidence_sha256": "9f896fa715ab70afcdd65c150c54dc3c52dc9737a65e1f0ff325922eefc71bce"
+    },
+    {
+      "n": 13,
+      "url": "https://huggingface.co/papers/2610.18356",
+      "status": "SUPPORTED",
+      "reason": "Both abstract and summary state that Urbex is an agentic RL system for city-scale spatial grounding, as needed for full support of the claim.",
+      "evidence": "# Paper page - Urbex: Agentic Spatial Grounding",
+      "claim": "Urbex is an example of RL for city-scale spatial grounding [13].",
+      "report_sha256": "aa9fcf2b02713734622978446781ccbda03815e5723e9e6f2cbbbe16a7b8db99",
+      "evidence_sha256": "8f2099606758909d9ad2d6cde4d0e60ec75167fba5bdf68b6ba975290dcaa44a"
+    }
+  ],
+  "audit_version": "quoted_evidence_v3_sampled",
+  "n_audited_sources": 5,
+  "audit_scope": "5 source-claim samples; structural validator covers all citations"
+}

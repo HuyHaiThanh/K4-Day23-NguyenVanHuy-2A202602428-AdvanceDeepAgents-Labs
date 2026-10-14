@@ -1,0 +1,219 @@
+{
+  "topic": "survey about world model",
+  "model": "openai:gpt-4.1",
+  "elapsed_s": 342.8,
+  "subagent_calls": 7,
+  "tool_calls": {
+    "execute": 10,
+    "ls": 2,
+    "read_file": 13,
+    "task": 7,
+    "write_file": 8,
+    "write_todos": 1
+  },
+  "tokens": {
+    "input": 664064,
+    "output": 21041
+  },
+  "tokens_scope": "lead_only; excludes subagent usage",
+  "task_types": {
+    "researcher": 4,
+    "citation-checker": 3
+  },
+  "current_run_usage": {
+    "input": 30610,
+    "output": 841,
+    "model_calls": 9,
+    "unmetered_calls": 0,
+    "by_model": {
+      "gpt-4.1-2025-04-14": {
+        "input": 30610,
+        "output": 841,
+        "model_calls": 9
+      }
+    },
+    "admission_limit": 90000,
+    "scope": "current_run_all_agents_and_compaction"
+  },
+  "phases": [
+    {
+      "phase": "generation",
+      "model": "openai:gpt-4.1",
+      "elapsed_s": 210.0,
+      "subagent_calls": 5,
+      "tool_calls": {
+        "execute": 8,
+        "ls": 2,
+        "read_file": 8,
+        "task": 5,
+        "write_file": 6,
+        "write_todos": 1
+      },
+      "tokens": {
+        "input": 591403,
+        "output": 15697
+      },
+      "task_types": {
+        "researcher": 4,
+        "citation-checker": 1
+      }
+    },
+    {
+      "phase": "citation_review",
+      "model": "openai:gpt-4.1",
+      "elapsed_s": 62.0,
+      "subagent_calls": 1,
+      "tool_calls": {
+        "read_file": 2,
+        "task": 1,
+        "write_file": 1
+      },
+      "tokens": {
+        "input": 25567,
+        "output": 3736
+      },
+      "task_types": {
+        "citation-checker": 1
+      },
+      "current_run_usage": {
+        "input": 48142,
+        "output": 4706,
+        "model_calls": 9,
+        "unmetered_calls": 0,
+        "by_model": {
+          "gpt-4.1-2025-04-14": {
+            "input": 48142,
+            "output": 4706,
+            "model_calls": 9
+          }
+        },
+        "admission_limit": 140000,
+        "scope": "current_run_all_agents_and_compaction"
+      }
+    },
+    {
+      "phase": "citation_review",
+      "model": "openai:gpt-4.1",
+      "elapsed_s": 31.6,
+      "subagent_calls": 0,
+      "tool_calls": {
+        "read_file": 3,
+        "write_file": 1
+      },
+      "tokens": {
+        "input": 33440,
+        "output": 1332
+      },
+      "task_types": {},
+      "current_run_usage": {
+        "input": 33440,
+        "output": 1332,
+        "model_calls": 5,
+        "unmetered_calls": 0,
+        "by_model": {
+          "gpt-4.1-2025-04-14": {
+            "input": 33440,
+            "output": 1332,
+            "model_calls": 5
+          }
+        },
+        "admission_limit": 140000,
+        "scope": "current_run_all_agents_and_compaction"
+      }
+    },
+    {
+      "phase": "citation_review",
+      "model": "openai:gpt-4.1",
+      "elapsed_s": 39.2,
+      "subagent_calls": 1,
+      "tool_calls": {
+        "execute": 2,
+        "task": 1
+      },
+      "tokens": {
+        "input": 13654,
+        "output": 276
+      },
+      "task_types": {
+        "citation-checker": 1
+      },
+      "current_run_usage": {
+        "input": 30610,
+        "output": 841,
+        "model_calls": 9,
+        "unmetered_calls": 0,
+        "by_model": {
+          "gpt-4.1-2025-04-14": {
+            "input": 30610,
+            "output": 841,
+            "model_calls": 9
+          }
+        },
+        "admission_limit": 90000,
+        "scope": "current_run_all_agents_and_compaction"
+      }
+    }
+  ],
+  "n_sources": 8,
+  "source_families": [
+    "arxiv",
+    "hf-daily",
+    "hf-search",
+    "web"
+  ],
+  "citation_audit": [
+    {
+      "n": 1,
+      "url": "https://arxiv.org/abs/1809.01999",
+      "status": "SUPPORTED",
+      "reason": "The Ha & Schmidhuber (2018) paper presents recurrent world models enabling agents to learn policies entirely within their own learned internal environment models (\"dream\" environments) and discusses improved sample efficiency without direct access to the environment, as described in the claim.",
+      "evidence": "We also train our agent entirely inside of",
+      "claim": "The foundational work by Ha & Schmidhuber (2018) introduced recurrent world models, supporting policy evolution entirely within agents' learned \"dream\" environments, a paradigm improving sample efficiency without requiring direct access to the original environment [1].",
+      "report_sha256": "4f70a906894e9ffda19c004e3b2683d19cf85a568c826e6f7f1548fc2f88a845",
+      "evidence_sha256": "0f08cbfe6c2bb3cccf0931fe992f4cd4e40f0af06277df442247632743b898c2"
+    },
+    {
+      "n": 2,
+      "url": "https://arxiv.org/abs/2606.00133",
+      "status": "SUPPORTED",
+      "reason": "The abstract and scope of the 2026 arXiv survey indicate that no evidence is available for universal cross-domain standardization or industrial-scale, broad deployment of world models; remaining open challenges include evaluation, real-world transfer, and interpretability, which matches the claim.",
+      "evidence": "World models, internal simulators that learn the structure",
+      "claim": "- No current evidence—across these cited sources—demonstrates universal cross-domain standardization or industrial-scale, broad deployment of world models; open challenges remain in evaluation, real-world transfer, and interpretability [2][3][6][8].",
+      "report_sha256": "4f70a906894e9ffda19c004e3b2683d19cf85a568c826e6f7f1548fc2f88a845",
+      "evidence_sha256": "68b08a59987658461f76ea6a7453c50bfce51e0c2470c5f6968d28ae986bb7a2"
+    },
+    {
+      "n": 4,
+      "url": "https://huggingface.co/papers/2601.17067",
+      "status": "SUPPORTED",
+      "reason": "The fetched page emphasizes new taxonomies for video/world models, evaluating them on persistence, control fidelity, and high-dimensional visual prediction, directly aligning with the claim's attributed emphasis and reported challenges.",
+      "evidence": "A critical gap persists between modern \"stateless\" video",
+      "claim": "This line of work emphasizes the structure and interpretability of state evolution, highlighting challenges such as persistence, control fidelity, and high-dimensional visual prediction [4].",
+      "report_sha256": "4f70a906894e9ffda19c004e3b2683d19cf85a568c826e6f7f1548fc2f88a845",
+      "evidence_sha256": "a15bb6a40f0abaf0b653a22552704bf524e43aa35146407c726e2e6818d1a15d"
+    },
+    {
+      "n": 6,
+      "url": "https://huggingface.co/papers/2610.18774",
+      "status": "SUPPORTED",
+      "reason": "The GreenWAM paper states that the core achievement is a unified model that serves perception and action generation, evaluated across many robot types and environments, and tested in robotics manipulation benchmarks, which matches the claim.",
+      "evidence": "We present GreenWAM, a world foundation model for",
+      "claim": "The core achievement is unifying perception and action generation with a single model evaluated on a range of robot morphologies and environments, tested within robotics manipulation [6].",
+      "report_sha256": "4f70a906894e9ffda19c004e3b2683d19cf85a568c826e6f7f1548fc2f88a845",
+      "evidence_sha256": "030a12a87275a41f069efa1f7a9d41c132fbaac42bea0025515a2a47ddd4765d"
+    },
+    {
+      "n": 8,
+      "url": "https://worldbench.github.io/assets_common/papers/survey.pdf",
+      "status": "SUPPORTED",
+      "reason": "The 3D/4D survey paper discusses significant progress in world model reconstruction pipelines/benchmarks, but notes ongoing specialization and limited generality across domains, directly supporting the claim.",
+      "evidence": "While prior work largely emphasizes generative methods for",
+      "claim": "Related work in 3D/4D world model surveys confirms vibrant progress in reconstruction pipelines and benchmarks, while recognizing the application scope is still specialized and domain-specific [8].",
+      "report_sha256": "4f70a906894e9ffda19c004e3b2683d19cf85a568c826e6f7f1548fc2f88a845",
+      "evidence_sha256": "aa7ceceea910fb872c6c0f0c5a83e9f6ae66f2796ca56be3b99c6c1f922df5fd"
+    }
+  ],
+  "audit_version": "quoted_evidence_v3_sampled",
+  "n_audited_sources": 5,
+  "audit_scope": "5 source-claim samples; structural validator covers all citations"
+}

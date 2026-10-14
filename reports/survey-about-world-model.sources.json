@@ -1,0 +1,66 @@
+[
+  {
+    "n": 1,
+    "id": "1809.01999",
+    "url": "https://arxiv.org/abs/1809.01999",
+    "title": "Recurrent World Models Facilitate Policy Evolution",
+    "date": "2018-09-04",
+    "source": "arxiv"
+  },
+  {
+    "n": 2,
+    "id": "2606.00133",
+    "url": "https://arxiv.org/abs/2606.00133",
+    "title": "World Models: A Comprehensive Survey of Architectures, Methodologies, Reasoning Paradigms, and Applications",
+    "date": "2026-05-28",
+    "source": "arxiv"
+  },
+  {
+    "n": 3,
+    "id": "2605.00080",
+    "url": "https://arxiv.org/abs/2605.00080",
+    "title": "World Model for Robot Learning: A Comprehensive Survey",
+    "date": "2026-04-30",
+    "source": "arxiv"
+  },
+  {
+    "n": 4,
+    "id": "2601.17067",
+    "url": "https://huggingface.co/papers/2601.17067",
+    "title": "A Mechanistic View on Video Generation as World Models: State and Dynamics",
+    "date": "2026-01-22",
+    "source": "hf-search"
+  },
+  {
+    "n": 5,
+    "id": "2610.00722",
+    "url": "https://huggingface.co/papers/2610.00722",
+    "title": "JEPA-TTT: Persistent Test-Time Training of Latent World Models for Planning under Dynamics Shifts",
+    "date": "2026-09-30",
+    "source": "hf-search"
+  },
+  {
+    "n": 6,
+    "id": "2610.18774",
+    "url": "https://huggingface.co/papers/2610.18774",
+    "title": "GreenWAM: A World Foundation Model for Robotics",
+    "date": "2026-10-13",
+    "source": "hf-daily"
+  },
+  {
+    "n": 7,
+    "id": "2610.18846",
+    "url": "https://huggingface.co/papers/2610.18846",
+    "title": "WorldRecon: Generative Multi-View Mesh Reconstruction for Large-Scale 3D World",
+    "date": "2026-10-13",
+    "source": "hf-daily"
+  },
+  {
+    "n": 8,
+    "id": "https://worldbench.github.io/assets_common/papers/survey.pdf",
+    "url": "https://worldbench.github.io/assets_common/papers/survey.pdf",
+    "title": "3D and 4D World Modeling: A Survey",
+    "date": "2023",
+    "source": "web"
+  }
+]
